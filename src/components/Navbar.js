@@ -25,7 +25,7 @@ const Navbar = () => {
         {/* Right - Contact + Mobile Toggle */}
         <div className="flex items-center justify-between gap-4">
           {/* Contact Button */}
-          <button className="border border-black px-4 py-2 text-sm font-medium flex items-center gap-2 hover:bg-black hover:text-white transition cursor-pointer">
+          <button className="border border-black bg-[#FFFCFA] px-4 py-2 text-sm font-medium flex items-center gap-2 hover:bg-black hover:text-white transition cursor-pointer">
             Contact us <MoveRight size={16} />
           </button>
 

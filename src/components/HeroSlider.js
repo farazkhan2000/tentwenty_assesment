@@ -316,7 +316,7 @@ export default function HeroSlider() {
   };
 
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative h-screen max-h-screen w-full overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 transition-opacity duration-1000 ease-in-out">
         <Image
@@ -347,7 +347,7 @@ export default function HeroSlider() {
         </div>
 
         {/* Thumbnail and Progress */}
-        <div className="absolute bottom-8 sm:bottom-20 left-4 sm:left-8 md:left-36 z-20 flex items-center gap-4 sm:gap-6">
+        <div className="absolute bottom-20 md:bottom-20 left-4 sm:left-8 md:left-36 z-20 flex items-center gap-4 sm:gap-6">
           <div
             onClick={handleNext}
             className="relative w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 cursor-pointer group"
