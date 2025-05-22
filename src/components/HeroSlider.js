@@ -218,12 +218,12 @@ const slides = [
   },
   {
     id: 3,
-    image: Images.HeroSliderImg1,
+    image: Images.HeroSliderImg3,
     headline: "Sustainable Farming, Quality Guaranteed",
   },
   {
     id: 4,
-    image: Images.HeroSliderImg2,
+    image: Images.HeroSliderImg4,
     headline: "Nature's Best, Direct to You",
   },
 ];
@@ -334,7 +334,7 @@ export default function HeroSlider() {
       {/* Content Container */}
       <div className="container mx-auto h-full px-4 sm:px-6 lg:px-8">
         {/* Headline Text */}
-        <div className="absolute z-20 left-4 lg:left-36 top-1/4 md:top-1/3 text-white max-w-xs sm:max-w-sm md:max-w-xl">
+        <div className="absolute z-20 left-8 lg:left-36 top-1/4 md:top-1/3 text-white max-w-xs sm:max-w-sm md:max-w-xl">
           <p className="mb-2 text-xs sm:text-sm tracking-widest uppercase">
             Welcome To TenTwenty Farms
           </p>
@@ -347,7 +347,7 @@ export default function HeroSlider() {
         </div>
 
         {/* Thumbnail and Progress */}
-        <div className="absolute bottom-20 md:bottom-20 left-4 sm:left-8 md:left-36 z-20 flex items-center gap-4 sm:gap-6">
+        <div className="absolute bottom-30 md:bottom-20 left-8 sm:left-8 md:left-36 z-20 flex items-center gap-4 sm:gap-6">
           <div
             onClick={handleNext}
             className="relative w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 cursor-pointer group"
