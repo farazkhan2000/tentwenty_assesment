@@ -8,7 +8,7 @@ const Navbar = () => {
   const navItems = ["About", "News", "Services", "Our Team", "Make Enquiry"];
 
   return (
-    <nav className="w-full p-0 md:p-4 fixed z-50 bg-transparent">
+    <nav className="w-full p-0 md:p-4 fixed z-300 bg-transparent">
       <div className="bg-white w-full mx-auto shadow-sm px-4 md:px-12 py-3 md:flex items-center justify-between">
         {/* Left - Nav Links */}
         <ul className="hidden md:flex items-center gap-6 text-sm text-black font-medium">
